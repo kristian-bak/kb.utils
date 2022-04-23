@@ -1,6 +1,7 @@
 #' An extension of tryCatch
 #' @param expr expression to evalute
 #' @return A list with value, warning and error message
+#' @export
 #'
 catch_error <- function(expr) {
   warn <- err <- NULL

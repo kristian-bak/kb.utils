@@ -14,6 +14,9 @@ devtools::check()
 ## Add test
 usethis::use_test("catch_error")
 
+## Bump version number
+usethis::use_version()
+
 ## Renv status
 renv::status()
 
