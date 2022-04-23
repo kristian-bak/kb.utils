@@ -13,6 +13,9 @@ devtools::check()
 
 ## Add test
 usethis::use_test("catch_error")
+usethis::use_test("cut_var")
+usethis::use_test("remove_everything_after")
+usethis::use_test("remove_everything_before")
 
 ## Bump version number
 usethis::use_version()
