@@ -16,6 +16,7 @@ usethis::use_test("catch_error")
 usethis::use_test("cut_var")
 usethis::use_test("remove_everything_after")
 usethis::use_test("remove_everything_before")
+usethis::use_test("remove_everything_but_digits")
 
 ## Bump version number
 usethis::use_version()

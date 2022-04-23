@@ -20,6 +20,16 @@ remove_everything_after <- function(pattern, x) {
 
 }
 
+#' Remove everything but digits
+#' @param x vector of any class
+#' @return character vector of same length as x
+#' @export
+remove_everything_but_digits <- function(x) {
+
+  gsub("[^[:digit:].]", "", x)
+
+}
+
 #' Remove brackets
 #' @param x vector of any class
 #' @details This is a helper function for cut_var designed to remove brackets after calling remove_everything_*

@@ -1,3 +1,7 @@
+# kb.utils 0.3.0
+
+Adding `remove_everything_but_digits`
+
 # kb.utils 0.2.0
 
 * Adding the following functions
