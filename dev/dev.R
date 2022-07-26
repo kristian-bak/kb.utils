@@ -17,6 +17,7 @@ usethis::use_test("cut_var")
 usethis::use_test("remove_everything_after")
 usethis::use_test("remove_everything_before")
 usethis::use_test("remove_everything_but_digits")
+usethis::use_test("adj_r_squared_for_glm")
 
 ## Bump version number
 usethis::use_version()
