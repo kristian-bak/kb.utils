@@ -1,3 +1,7 @@
+# kb.utils 0.5.0
+
+Adding `loop_counter`
+
 # kb.utils 0.4.0
 
 Adding `r_squared_for_glm` and `adj_r_squared_for_glm`
